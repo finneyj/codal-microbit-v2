@@ -67,6 +67,12 @@
             "name": "codal-microbit-nrf5sdk",
             "type": "git",
             "url": "https://github.com/microbit-foundation/codal-microbit-nrf5sdk"
+        },
+        {
+            "name":"codal-example-library",
+            "url":"https://github.com/finneyj/codal-example-library",
+            "branch":"main",
+            "type":"git"
         }
     ],
     "linker_flags": "-Wl,--no-wchar-size-warning -Wl,--gc-sections -Wl,--wrap,atexit -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -Wl,--end-group",
