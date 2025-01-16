@@ -72,6 +72,12 @@
             "url":"https://github.com/microbit-foundation/codal-microbit-nrf5sdk",
             "branch":"master",
             "type":"git"
+        },
+        {
+            "name":"codal-example-library",
+            "url":"https://github.com/finneyj/codal-example-library",
+            "branch":"main",
+            "type":"git"
         }
     ]
 }
